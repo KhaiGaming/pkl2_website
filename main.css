@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    line-height: 2;
+    font-weight: 300;
+}
+
+h1,h2,h3{
+    font-weight: 500;
+}
+
+header{
+    background-color: orange;
+    height: 60pxs;
+    box-shadow: none black;
+
+}
+
+nav{
+    max-width:  1080px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+menu{
+    display: flex;
+    gap: 40px;
+
+}
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+    min-height: 100px;
+}
+
+.hero{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  salmon;
+    margin-top: 20px;
+    background-image: url("https://pm1.narvii.com/6075/6e7150596307f8f3b717c98b7064f77d35a9648e_hq.jpg");
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+article{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+article img {
+    object-fit: cover;
+    height: 320px;
+    border-radius: 12px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
